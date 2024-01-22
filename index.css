@@ -1,0 +1,81 @@
+
+        .input {
+            border: 2px solid rgb(170, 79, 14);
+            background-color: black;
+            color: white;
+            height: 500px;
+            width: 500px;
+            border-radius: 10px;
+            overflow-y: scroll;
+            overflow-x: scroll;
+            display: inline;
+            margin-left: 100px;
+            position: absolute;
+            text-indent: -36px;
+            cursor: pointer;
+
+            box-shadow: -10px -10px 30px rgba(248, 114, 11, 0.933);
+        }
+
+        .input p {
+            padding-left: 100px;
+        }
+
+        .input:hover {
+            color: #ffff00de;
+
+
+        }
+
+        h3 {
+            color: rgb(165, 38, 21);
+        }
+
+
+        .output {
+            border: 2px solid rgb(55, 219, 19);
+            margin-right: 0px;
+            color: aliceblue;
+            margin-left: 700px;
+            width: 350px;
+            background-color: aliceblue;
+            border-radius: 10px;
+            cursor: pointer;
+
+        }
+
+        .output:hover {
+            color: rgb(228, 45, 45);
+
+        }
+
+        .output p {
+            margin-left: 20px;
+
+        }
+
+        .top {
+            margin-top: 460px;
+        }
+
+        #mar {
+            margin-top: 260px;
+
+        }
+
+
+        h2 {
+            background-color: #58d47999;
+            text-align: center;
+
+            position: inherit;
+
+            color: rgb(204 8 8);
+        }
+
+        .btn {
+            padding: 10px;
+            background-color: #0bd8ea;
+            cursor: pointer;
+        }
+    

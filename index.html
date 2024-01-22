@@ -1,0 +1,492 @@
+<html>
+
+<head>
+    
+<link rel="stylesheet" href="index.css">
+<script src="index.js"></script>
+</head>
+
+<body style="background-color:papayawhip ;">
+    <h2> :: JAVA PROGRAM :: </h2>
+
+    <header id="mar">
+        <button class="btn" onclick="color()">Change color</button>
+        <h3>Big of Three number ::</h3>
+
+        <div class="input" id="no1">
+
+            <p>import java.util.Scanner;</p>
+            <p>class ThreecBig</p>
+            <p> {</p>
+            <p> public static void main(String args[])</p>
+            <p> {</p>
+            <p>//Scanner input=new Scanner (System.in);</p>
+            <p>int a=Integer.parseInt(args[0]);</p>
+            <p>int b=Integer.parseInt (args[1]);</p>
+            <p> int c=Integer.parseInt(args[2]);</p>
+
+
+            <p>if(a>b && a>c)</p>
+            <p>{System.out.print("Big is" + " " + a);</p>
+            <p> if(b>c)</p>
+            <p> System.out.print(">" + b +">" + c);</p>
+            <p>else</p>
+            <p>System.out.print(">" + c +">" + b);</p>
+            <p> }</p>
+
+            <p> else if(c>b && c>a) </p>
+            <p>{System.out.print("Big is" + " " + c);</p>
+            <p>if(a>b)</p>
+
+            <p> System.out.print(">" + a +">" + b);</p>
+            <p> else</p>
+            <p> System.out.print(">" + b +">" + a);</p>
+            <p> }</p>
+
+            <p> else if(b>a && b>c)</p>
+            <p> {System.out.print("Big is" + " " + b);</p>
+            <p> if(c>a)</p>
+            <p> System.out.print(">" + c +">" + a);</p>
+            <p> else</p>
+            <p> System.out.print(">" + a +">" + c);</p>
+            <p> }</p>
+
+            <p> }</p>
+            <p> }</p>
+        </div>
+
+        <div class="output">
+            <h3>Output :</h3>
+            <p> C:\Java\jdk-10.0.2\bin>java ThreecBig 16 20 30</p>
+            <p> Big is 30>20>16</p>
+            <p> C:\Java\jdk-10.0.2\bin></p>
+        </div>
+    </header>
+
+
+
+    <header class="top">
+        <h3>table form ::</h3>
+
+        <div class="input" id=" no2">
+
+            <p>import java.util.Scanner;</p>
+            <p>class Table{</p>
+            <p>public static void main(String[] args)</p>
+            <p>{</p>
+            <p>Scanner sc=new Scanner(System.in);</p>
+            <p>int a,b,i;</p>
+            <p>System.out.print("enter number that you want a table form : ");</p>
+            <p>a=sc.nextInt();</p>
+            <p>if(a==0){</p>
+            <p>System.out.println("Worng input :- \n please get right input");</p>
+            <p>}</p>
+            <p>else{</p>
+            <p> for(i=1;i<=10;i++)< /p>
+                    <p>{</p>
+                    <p>b=a*i;</p>
+                    <p>System.out.println(a + "*"+ i + "=" + b);</p>
+                    <p>}</p>
+                    <p>}</p>
+                    <p>}</p>
+                    <p>}</p>
+
+        </div>
+        <div class="output">
+            <h3>Output</h3>
+            C:\Java\jdk-10.0.2\bin>java Table
+            <p>enter number that you want a table form : 17</p>
+            <p>17*1=17</p>
+            <p>17*2=34</p>
+            <p>17*3=51</p>
+            <p>17*4=68</p>
+            <p>17*5=85</p>
+            <p>17*6=102</p>
+            <p>17*7=119</p>
+            <P>17*8=136</p>
+            <P>17*9=153</p>
+            <p>17*10=170</p>
+        </div>
+
+    </header>
+
+
+
+    <header style="margin-top:120px;">
+
+        <h3>Sum of Odd number ::</h3>
+        <div class="input" id="no3">
+            <p>import java.util.Scanner;</p>
+            <p>class SumOfOddnumber</p>
+            <p>{</p>
+            <p>public static void main(String args[] )</p>
+            <p> {</p>
+            <p>System.out.println(" Enter value of n and java show that \n number of n odd number and it's sum");</p>
+            <p> Scanner sc=new Scanner(System.in);</p>
+            <p>int n, odd=0, sum=0;</p>
+            <p>System.out.println("Enter number : : ");</p>
+            <p>n=sc.nextInt();</p>
+            <p>int i=1;</p>
+            <p> while(odd!=n)</p>
+
+            <p>{ if(i%2!=0)</p>
+
+            <p> {</p>
+            <p> System.out.println("odd number is " + i);</p>
+
+            <p>sum=sum+i;</p>
+            <p>odd++;</p>
+            <p>}</p>
+            <p>i++;</p>
+            <p> } </p>
+
+            <p>System.out.println("Sum=" + sum);</p>
+
+
+
+
+            <p>}</p>
+            <p>}</p>
+        </div>
+        <div class="output">
+            <h3>Output</h3>
+            <p>C:\Java\jdk-10.0.2\bin>java SumOfOddnumber</p>
+            <p>Enter value of n and java show that</p>
+            <p> number of n odd number and it's sum</p>
+            <p>Enter number : :</p>
+            <p>10</p>
+            <p>odd number is 1</p>
+            <p>odd number is 3</p>
+            <p>odd number is 5</p>
+            <p>odd number is 7</p>
+            <p>odd number is 9</p>
+            <p>odd number is 11</p>
+            <p>odd number is 13</p>
+            <p>odd number is 15</p>
+            <p>odd number is 17</p>
+            <p>odd number is 19</p>
+            <p>Sum=100</p>
+
+        </div>
+    </header>
+
+
+
+    <header>
+        <h3> Star print ::</h3>
+        <div class="input" id="no4">
+            <p>import java.util.*;</p>
+            <p>class Star{</p>
+            <p>public static void main(String[] args)</p>
+            <p>{</p>
+            <p>Scanner a=new Scanner(System.in);</p>
+            <p>System.out.println("Enter number to print *");</p>
+            <p>int x;</p>
+            <p>x=a.nextInt();</p>
+            <p>if(x==0){</p>
+            <p>System.out.println("Worng input\n please get right input");</p>
+            <p>}</p>
+            <p>else{</p>
+            <p>for(int i=0;i<=x;i++)< /p>
+                    <p>{ for(int j=0;j<=i;j++)< /p>
+                            <p>{System.out.print("*");}</p>
+
+                            <p>System.out.println(" ");</p>
+                            <p>}</p>
+                            <p>}</p>
+                            <p>}</p>
+                            <p>}</p>
+        </div>
+        <div class="output">
+            <h3>output :: </h3>
+            <p>C:\Java\jdk-10.0.2\bin>java Star</p>
+            <p>Enter number to print *</p>
+            <p>8</p>
+            <p>*</p>
+            <p>**</p>
+            <p>***</p>
+            <p>****</p>
+            <p>*****</p>
+            <p>******</p>
+            <p>*******</p>
+            <p>********</p>
+            <p>*********</p>
+        </div>
+    </header>
+
+
+
+    <header style="margin-top:100px;">
+        <h3>Prime number :: </h3>
+        <div class="input" id="no5">
+            <p>import java.util.Scanner;</p>
+            <p>class PrimeOrNot</p>
+            <p>{public static void main( String args[]){</p>
+            <p>int x=Integer.parseInt(args[0]);</p>
+            <p>int y=Integer.parseInt(args[1]);</p>
+            <p>System.out.println(x + "To" + y + "Prime number is :: ");</p>
+
+            <p>while(x<=y)< /p>
+                    <p>{int c=0;</p>
+                    <p>for(int i=1;i<=x;i++)< /p>
+                            <p>if(x%i==0)</p>
+                            <p>{c=c+1;}</p>
+
+                            <p>if(c==2)</p>
+                            <p>System.out.println(x + " prime");</p>
+
+                            <p>x++;</p>
+                            <p>}</p>
+                            <p>}</p>
+                            <p>}</p>
+
+        </div>
+        <div class="output">
+            <h3>Output ::</h3>
+            <p>C:\Java\jdk-10.0.2\bin>java PrimeOrNot 100 110</p>
+            <p>100 To 110 Prime number is ::</p>
+            <p>101 prime</p>
+            <p>103 prime</p>
+            <p>107 prime</p>
+            <p>109 prime</p>
+        </div>
+    </header>
+
+
+
+    <header style="margin-top:300px;">
+        <h3> Pattern :: </h3>
+        <div class="input" id="no6">
+            <p>import java.util.Scanner;</p>
+
+            <p>class Pattern</p>
+            <p>{</p>
+            <p>public</p>
+            <p>Pattern(int n)</p>
+            <p>{ int j,i;</p>
+
+            <p>for( i=1;i<=n;i++)< /p>
+                    <p>{</p>
+                    <p> for( j=1;j<=i;j++)< /p>
+                            <p>{</p>
+                            <p>for(int k=1;k<=j;k++)< /p>
+                                    <p>{</p>
+                                    <p>System.out.print(i);</p>
+                                    <p>}</p>
+                                    <p>System.out.println(" ");</p>
+                                    <p>}</p>
+                                    <p>System.out.println(" ");</p>
+                                    <p>}</p>
+                                    <p>}}</p>
+                                    <p>class Pattern1</p>
+
+                                    <p>{</p>
+                                    <p>public static void main(String args[])</p>
+                                    <p> {Scanner x=new Scanner(System.in);</p>
+                                    <p>System.out.println("Enter number");</p>
+                                    <p>int n=x.nextInt();</p>
+                                    <p>int y=n;</p>
+                                    <p>Pattern z=new Pattern(y);</p>
+                                    <p>}</p>
+                                    <p>}</p>
+        </div>
+        <div class="output">
+            <h3>Output :: </h3>
+
+            <p>C:\Java\jdk-10.0.2\bin>java Pattern1</p>
+            <p>Enter number</p>
+            <p>4</p>
+            <p>1</p>
+
+            <p>22</p>
+            <p>22</p>
+
+            <p>333</p>
+            <p>333</p>
+            <p>333</p>
+
+            <p>4444</p>
+            <p>4444</p>
+            <p>4444</p>
+            <p>4444</p>
+        </div>
+    </header>
+
+
+
+    <header>
+        <h3> Leap Year :: </h3>
+        <div class="input" id="no7">
+            <p>import java.lang.*;</p>
+            <p>import java.io.*;</p>
+            <p>class Chep</p>
+            <p>{</p>
+            <p>int a;</p>
+            <p>void cal(int y)</p>
+            <p>{ a=y;</p>
+            <p>if(y%400==0 || y%100!=0 && y%4==0)</p>
+            <p>System.out.println("LEAP YEAR");</p>
+            <p>else</p>
+            <p>System.out.println("NON LEAP YEAR");</p>
+            <p>}</p>
+            <p>}</p>
+
+            <p>class Leap2</p>
+            <p>{</p>
+            <p>public static void main(String args[]) throws Exception</p>
+            <p>{</p>
+            <p>int y,x;</p>
+            <p>DataInputStream br=new DataInputStream(System.in);</p>
+            <p>System.out.println("Enter YEA");</p>
+            <p>y=Integer.parseInt(br.readLine());</p>
+            <p>//x = Float.valueOf(oj.readline()).floatvalue();</p>
+            <p>Chep obj=new Chep();</p>
+            <p>obj.cal(y);</p>
+            <p>}</p>
+            <p>}</p>
+        </div>
+        <div class="output">
+            <h3>Output</h3>
+            <p>C:\Java\jdk-10.0.2\bin>java Leap2</p>
+            <p>Enter number</p>
+            <p>2000</p>
+            <p>LEAP YEAR</p>
+
+
+        </div>
+    </header>
+
+
+
+    <header style="margin-top:350px;">
+        <h3> Factors :: </h3>
+        <div class="input" id="no8">
+            <p> import java.util.Scanner;</p>
+            <p>class Cal{</p>
+            <p>int x,y;</p>
+            <p>void check(int x,int y)</p>
+            <p>{ </p>
+            <p>while(x<=y)< /p>
+                    <p>{ System.out.println("Factors of " + x + "is :: ");</p>
+                    <p>for(int i=1;i<=x;i++)< /p>
+                            <p>if(x%i==0)</p>
+                            <p>{</p>
+                            <p>System.out.print(i + "-");</p>
+
+                            <p>}</p>
+                            <p>System.out.println();</p>
+                            <p>System.out.println();</p>
+                            <p>x++;</p>
+                            <p>}</p>
+                            <p>}</p>
+                            <p>}</p>
+                            <p> class Factors</p>
+                            <p>{</p>
+                            <p>public static void main(String args[])</p>
+                            <p>{Scanner input=new Scanner(System.in);</p>
+                            <p>System.out.println("Enter name::");</p>
+                            <p>String name=input.next();</p>
+                            <p>System.out.println("Enter number for checking FACTOR");</p>
+                            <p>int x=input.nextInt();</p>
+                            <p>int y=input.nextInt();</p>
+                            <p>System.out.println(name + " " + "After checking" + " "+ x +" "+"to"+" "+ y + " " +
+                                "factors is::" );</p>
+                            <p>Cal obj=new Cal();</p>
+                            <p>obj.check(x,y);</p>
+                            <p>}</p>
+                            <p>}</p>
+        </div>
+        <div class="output">
+            <h3>Output :: </h3>
+
+            <p>C:\Java\jdk-10.0.2\bin>java Factors</p>
+            <p>Enter name::</p>
+            <p>Anukul</p>
+            <p>Enter number for checking FACTOR</p>
+            <p>10</p>
+            <p>12</p>
+            <p>Anukul After checking 10 to 12 factors is::</p>
+            <p>Factors of 10is ::</p>
+            <p>1-2-5-10-</p>
+
+            <p>Factors of 11is ::</p>
+            <p>1-11-</p>
+
+            <p>Factors of 12is ::</p>
+            <p>1-2-3-4-6-12-</p>
+        </div>
+
+    </header>
+
+
+
+    <header>
+        <h3>Factorial :: </h3>
+        <div class="input" id="no9">
+            <p>import java.util.Scanner;</p>
+            <p>class Factorial</p>
+            <p>{</p>
+            <p>public static void main(String args[] )</p>
+            <p>{</p>
+            <p>Scanner sc=new Scanner(System.in);</p>
+            <p>int n,i;</p>
+            <p>int sum=1;</p>
+            <p>System.out.println("Eter number that you want show factorial form");</p>
+            <p>n= sc.nextInt();</p>
+            <p>for(i=1; i<=n; i++)</p>
+                    <p>{</p>
+
+                    <p>sum=sum*i;</p>
+                    <p>}</p>
+                    <p>System.out.println("The factorial is :" + sum);</p>
+                    <p>}</p>
+                    <p>}</p>
+        </div>
+        <div class="output">
+            <h3>OutPut :: </h3>
+            <p>C:\Java\jdk-10.0.2\bin>java Factorial</p>
+            <p>Eter number that you want show factorial form</p>
+            <p>4</p>
+            <p>The factorial is :24</p>
+        </div>
+    </header>
+
+    <header style="margin-top:300px;">
+        <h3>Leap Year ::</h3>
+        <div class="input" id="no10">
+            <p>import java.util.Scanner;</p>
+            <p>class Check</p>
+            <p>{</p>
+            <p>public static void main(String args[])</p>
+            <p>{</p>
+            <p>int a,x;</p>
+            <p>x=Integer.parseInt(args[0]);</p>
+            <p>a=Integer.parseInt(args[1]);</p>
+            <p>System.out.println( x + " to "+ a + " leap year is : : ");</p>
+
+            <p>for(int i=x;i<=a;i++)< /p>
+                    <p>{</p>
+
+                    <p>if(i%4==0 && i%100!=0 || i%400==000)</p>
+                    <p>System.out.println("This year" + i + "leapyear");</p>
+                    <p>}</p>
+                    <p>}</p>
+                    <p>}</p>
+        </div>
+        <div class="output">
+            <h3> Output ::</h3>
+            <p>C:\Java\jdk-10.0.2\bin>java Check 2000 2022</p>
+            <p>2000 to 2022 leap year is : :</p>
+            <p>This year 2000 leapyear</p>
+            <p>This year 2004 leapyear</p>
+            <p>This year 2008 leapyear</p>
+            <p>This year 2012 leapyear</p>
+            <p>This year 2016 leapyear</p>
+            <p>This year 2020 leapyear</p>
+
+        </div>
+    </header>
+
+</body>
+
+</html>
